@@ -1,0 +1,38 @@
+.carousel-container {
+    margin: 20px auto; /* Centrer le carrousel horizontalement avec une marge de 20px en haut et en bas */
+  }
+  
+  /* Style des éléments individuels du carrousel */
+  .carousel-item-padding-40-px {
+    padding: 0 20px; /* Ajouter un espace de 20px à gauche et à droite de chaque élément du carrousel */
+  }
+  
+  /* Style des points de pagination */
+  .custom-dot-list-style {
+    list-style-type: none; /* Masquer les points de la liste par défaut */
+    text-align: center; /* Centrer les points horizontalement */
+    padding: 0; /* Supprimer le remplissage par défaut */
+    margin-top: 20px; /* Ajouter une marge de 20px en haut */
+  }
+  
+  .custom-dot-list-style li {
+    display: inline-block; /* Afficher les points en ligne */
+    margin-right: 10px; /* Ajouter un espace entre les points */
+  }
+  
+  .custom-dot-list-style li button {
+    background-color: #ccc; /* Couleur de fond des points non actifs */
+    width: 10px; /* Largeur des points */
+    height: 10px; /* Hauteur des points */
+    border: none; /* Supprimer la bordure */
+    border-radius: 50%; /* Rendre les points circulaires */
+    cursor: pointer; /* Afficher un curseur au survol */
+  }
+  
+  .custom-dot-list-style li button:hover {
+    background-color: #888; /* Couleur de fond des points au survol */
+  }
+  
+  .custom-dot-list-style li button.active {
+    background-color: #333; /* Couleur de fond des points actifs */
+  }

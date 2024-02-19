@@ -1,0 +1,90 @@
+.navbar {
+    background-color: #333;
+    padding: 5px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.9375rem;
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+  }
+  
+  .logo {
+    width: 70px; /* Largeur du logo */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+  
+    margin-right: 10px;
+    margin-left: -120px;
+  }
+  
+  .navbar-brand:hover,
+  .nav-link:hover {
+    background-color: #c0c0c8;
+    border-radius: 5px;
+  }
+  
+  .nav-item {
+    list-style-type: none;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  /* L ESPACE entre les contenu de navbar */
+  .navbar-nav .nav-item + .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  .cart-icon {
+    margin-right: 5px;
+  }
+  /* Styles de l'icône de recherche */
+.search-box button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+  }
+  
+  .search-box button:hover {
+    color: #242c34; /* Couleur lors du survol */
+  }
+  
+  /* Taille et marge de l'icône */
+  .search-box button svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px; /* Ajustez la marge selon vos besoins */
+
+  }
+  

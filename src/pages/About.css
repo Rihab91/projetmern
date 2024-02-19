@@ -1,0 +1,34 @@
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si l'espace est insuffisant */
+  }
+  
+  .card {
+    flex-basis: calc(33.33% - 100px); /* Pour avoir 3 cartes par ligne */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre légère */
+    transition: transform 0.3s ease; /* Animation de transition au survol */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Effet de translation au survol */
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+    
+  }
