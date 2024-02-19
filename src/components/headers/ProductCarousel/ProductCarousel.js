@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css'; // Importer les styles CSS par défaut du carousel
+import 'react-multi-carousel/lib/styles.css'; 
 
 const ProductCarousel = () => {
   // Définissez vos produits
@@ -44,7 +44,7 @@ const ProductCarousel = () => {
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
     >
-      {/* Mapper à travers vos produits et afficher dans le carousel */}
+ 
       {products.map(product => (
         <div key={product.id}>
           <img src={product.image} alt={product.name} />

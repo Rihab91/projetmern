@@ -14,7 +14,8 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData); // Envoyer les données du formulaire à votre backend
+    console.log(formData);
+    // Envoyer les données du formulaire à votre backend
     // Réinitialiser le formulaire
     setFormData({
       name: '',

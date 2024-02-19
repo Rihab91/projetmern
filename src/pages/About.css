@@ -7,20 +7,20 @@
   .card-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si l'espace est insuffisant */
+    flex-wrap: wrap; 
   }
   
   .card {
-    flex-basis: calc(33.33% - 100px); /* Pour avoir 3 cartes par ligne */
+    flex-basis: calc(33.33% - 100px); 
     padding: 20px;
     border-radius: 10px;
     background-color: #f9f9f9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre légère */
-    transition: transform 0.3s ease; /* Animation de transition au survol */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
   }
   
   .card:hover {
-    transform: translateY(-5px); /* Effet de translation au survol */
+    transform: translateY(-5px); 
   }
   
   .card h3 {

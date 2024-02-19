@@ -1,19 +1,19 @@
 .navbar-custom {
-    background-color: #333; /* Couleur de fond de la barre de navigation */
-    color: #fff; /* Couleur du texte */
-    padding: 10px 20px; /* Ajouter un rembourrage intérieur pour espacer les éléments */
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 20px;
   }
   
   /* Style des liens dans la barre de navigation */
   .nav-link {
-    color: #fff; /* Couleur des liens dans la barre de navigation */
-    margin-right: 20px; /* Espacement entre les liens */
-    font-size: 16px; /* Taille de la police */
-    text-decoration: none; /* Supprimer le soulignement des liens */
-    transition: color 0.3s ease; /* Ajouter une transition pour un changement de couleur en douceur */
+    color: #fff; 
+    margin-right: 20px; 
+    font-size: 16px; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
   }
   
-  /* Style des liens au survol */
+
   .nav-link:hover {
-    color: #ff0; /* Couleur des liens au survol */
+    color: #ff0; 
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import '../headers/Navbar2.css'; // Importer le fichier de styles CSS
+import '../headers/Navbar2.css'; 
 import Container from 'react-bootstrap/Container';
 
 
